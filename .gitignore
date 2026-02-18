@@ -1,0 +1,21 @@
+# OpenClaw Skills — Ignore Patterns
+
+# No secrets should ever be in this repo
+.env
+.env.*
+*.key
+*.pem
+*.token
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if any scripts added later)
+node_modules/
